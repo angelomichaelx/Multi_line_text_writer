@@ -8,3 +8,7 @@ with open("mylife.txt", "w") as file:
             file.write(line + "\n") 
 #it will ask you if you want to add more lines by answering y = yes and n = no
             more_lines = input("Are there more lines y/n? ")
+# if there are no lines and answered by 'n' n means NO so the program will stop
+            if more_lines.lower() == 'n':
+                break
+
