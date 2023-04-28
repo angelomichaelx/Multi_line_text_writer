@@ -4,3 +4,5 @@ with open("mylife.txt", "w") as file:
 #If the user does not wish to enter any further lines, an if statement is used to determine whether the loop should end and the file should be closed.
     while True:
             line = input("Enter line: ")
+# write the line to the file, with a newline character at the end
+            file.write(line + "\n") 
