@@ -1,3 +1,10 @@
+# Michael Angelo P. Biag
+#BSCPE 1-4
+#Write a method in python to write multiple line of text contents into a text file mylife.txt. See sample output:
+#Enter line: Beautiful is better than ugly. Are there more lines y/n? y
+#Enter line: Explicit is better than implicit. Are there more lines y/n? y
+#Enter line: Simple is better than complex. Are there more lines y/n? n
+
 #first we need to input the textbox that we will use in this program which is (mylife.txt)
 with open("mylife.txt", "w") as file:
 #The user is prompted for input using a while loop in this method, and each line is written to the file "mylife.txt" with a newline character at the end.
